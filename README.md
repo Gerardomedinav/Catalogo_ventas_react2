@@ -1,7 +1,7 @@
 # Proyecto de Catálogo de Ventas
 
 Este proyecto es parte de un trabajo realizado para la UTN en colaboración con "Argentina Programa". Consiste en el desarrollo del maquetado de una página de detalle de un producto para un sitio de ecommerce.
-![Captura de pantalla](captura.png)
+![Captura de pantalla](./public/img/captura.png)
 ## Requisitos previos
 
 Antes de clonar y ejecutar este proyecto, asegúrate de tener instalados los siguientes programas:

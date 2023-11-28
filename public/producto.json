@@ -1,0 +1,57 @@
+[
+    {
+      "id": 1,
+      "nombre": "Abrigos",
+      "precio": 10.99,
+      "imagen": "/img/abrigos.jpg",
+      "descripcion": "Buso de Algodon para hombre",
+      "sku": "ABR001",
+      "cantidad_disponible": 50
+    },
+    {
+      "id": 2,
+      "nombre": "Conjuntos Adulto",
+      "precio": 19.99,
+      "imagen": "/img/conjunto_adultos.jpg",
+      "descripcion": "Conjunto Deportivos adulto",
+      "sku": "CONJ001",
+      "cantidad_disponible": 30
+    },
+    {
+      "id": 3,
+      "nombre": "Conjunto Niño",
+      "precio": 19.99,
+      "imagen": "/img/conjunto_niño.jpg",
+      "descripcion": "Conjunto deportivo largo de niño",
+      "sku": "CONJ002",
+      "cantidad_disponible": 20
+    },
+    {
+      "id": 4,
+      "nombre": "Conjunto Futbol",
+      "precio": 19.99,
+      "imagen": "/img/conjunto_niño_futbol.jpg",
+      "descripcion": "Conjuntos de futbol para niños",
+      "sku": "FUT001",
+      "cantidad_disponible": 40
+    },
+    {
+      "id": 5,
+      "nombre": "Botines",
+      "precio": 19.99,
+      "imagen": "/img/botines.jpg",
+      "descripcion": "Botines para niños y grandes",
+      "sku": "BOT001",
+      "cantidad_disponible": 0
+    },
+    {
+      "id": 6,
+      "nombre": "Camicetas",
+      "precio": 19.99,
+      "imagen": "/img/camicetas.jpg",
+      "descripcion": "Camicetas de todos los clubes",
+      "sku": "CAM001",
+      "cantidad_disponible": 35
+    }
+  ]
+  

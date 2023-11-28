@@ -1,0 +1,37 @@
+
+header {
+  margin: 0;
+  padding: 10px; 
+  background-color: aquamarine;
+  text-align: center; 
+}
+
+
+.App-logo {
+  height: 20vh;
+  margin-bottom: -18vh;
+}
+
+
+.titles-container {
+  text-align: center; 
+}
+
+
+h1 {
+  font-size: 2em; 
+  color: red;
+  margin: 5px 0; 
+}
+
+/* Media query  */
+@media (max-width: 768px) {
+  .App-logo {
+    height: 80px; 
+    margin-bottom: -10vh;
+  }
+
+  h1 {
+    font-size: 1.5em; 
+  }
+}
