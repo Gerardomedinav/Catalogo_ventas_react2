@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# Proyecto de Catálogo de Ventas
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto es parte de un trabajo realizado para la UTN en colaboración con "Argentina Programa". Consiste en el desarrollo del maquetado de una página de detalle de un producto para un sitio de ecommerce.
+![Captura de pantalla](captura.png)
+## Requisitos previos
 
-## Available Scripts
+Antes de clonar y ejecutar este proyecto, asegúrate de tener instalados los siguientes programas:
 
-In the project directory, you can run:
+- Editor de código: Visual Studio Code (https://code.visualstudio.com/)
+- Node.js: versión 12 o superior (https://nodejs.org/)
+- React: biblioteca de JavaScript para construir interfaces de usuario (https://reactjs.org/)
+- Chakra UI: biblioteca de componentes para React (https://chakra-ui.com/)
+- Formik: biblioteca para la gestión de formularios en React (https://formik.org/)
 
-### `npm start`
+## Clonar el proyecto
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Abre tu terminal y navega hasta el directorio donde deseas clonar el proyecto.
+2. Ejecuta el siguiente comando para clonar el repositorio:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+git clone https://github.com/Gerardomedinav/Catalogo_ventas_react2.git
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Instalar dependencias
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Navega hasta el directorio del proyecto clonado:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+cd Catalogo_ventas_react2
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. Ejecuta el siguiente comando para instalar las dependencias del proyecto:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+npm install
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Ejecutar el proyecto
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Una vez que se hayan instalado todas las dependencias, ejecuta el siguiente comando para iniciar la aplicación:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+npm start
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+2. La aplicación se abrirá automáticamente en tu navegador. Si no se abre, puedes acceder a ella en la siguiente URL: http://localhost:3000/
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Especificaciones del trabajo
 
-### Making a Progressive Web App
+El objetivo del trabajo es desarrollar el maquetado de una página de detalle de un producto para un sitio de ecommerce. La página debe mostrar los siguientes datos del producto:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Nombre
+- Descripción
+- Precio
+- SKU
+- Cantidad disponible
 
-### Advanced Configuration
+Además, se debe agregar un botón "Comprar". Al hacer clic en dicho botón, se mostrará debajo del mismo un mensaje al usuario que diga "Gracias por su compra". Este comportamiento se debe resolver utilizando manejo de estados.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+¡Gracias por tu interés en este proyecto! Si tienes alguna pregunta, no dudes en contactarnos.
